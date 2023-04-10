@@ -1,5 +1,6 @@
-from gptcache.utils import import_sbert
+from gptcache.utils import import_sbert, import_torch
 import_sbert()
+import_torch()
 
 import numpy as np
 from sentence_transformers import SentenceTransformer
